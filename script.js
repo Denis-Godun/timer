@@ -22,6 +22,15 @@ srartButton.onclick = () => {
     clearInterval(interval)
     interval = setInterval(startTimer,10)
 };
+
+pauseButton.onclick = () => {
+    clearInterval(interval)
+}
+stopButton.onclick = () => {
+    clearInterval(interval) 
+    clearFields()
+ 
+}
  
 //функция для кнопки старт
 function startTimer(){
@@ -65,4 +74,15 @@ function startTimer(){
         minute = 0
         hoursItem.innerText = "0" + hour
     }
+};
+
+function clearFields() {
+    hour = 00,
+    minute = 00,
+    second = 00,
+    millisecond = 00;
+    hoursItem.textContent = "00"
+    minutesItem.textContent = "00"
+    secondsItem.textContent = "00"
+    milisecondsItem.textContent = "00"
 };
