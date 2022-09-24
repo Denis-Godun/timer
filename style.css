@@ -149,3 +149,25 @@ button {
 button:hover {
   background-color: #4869D6;
 }
+
+.results {
+  border: 2px solid #4869D6;
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.result {
+  margin-top: 10px;
+}
+
+.item {
+  margin: 10px;
+  font-size: 20px;
+}

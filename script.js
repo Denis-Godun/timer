@@ -17,6 +17,10 @@ second = 00,
 millisecond = 00,
 interval;
 
+//круги
+let fixed = document.querySelector('.results');
+
+
 //обработчики кнопок
 srartButton.onclick = () => {
     clearInterval(interval)
