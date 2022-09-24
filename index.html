@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Таймер</title>
-</head>
-<body>
-  <script src="script.js"></script>  
-</body>
+  </head>
+  <body>
+    <div class="container">
+        <div class="timer"><div class="time_block">
+            <div class="time hours">00</div>
+            <div class="title">Часы</div>
+          </div>
+    
+          <div class="time_block">
+            <div class="time minutes">00</div>
+            <div class="title">Минуты</div>
+          </div>
+    
+          <div class="time_block">
+            <div class="time seconds">00</div>
+            <div class="title">Секунды</div>
+          </div>
+    
+          <div class="time_block">
+            <div class="time miliseconds">00</div>
+            <div class="title">Милисекунды</div>
+          </div></div>
+      
+      <div class="buttons">
+        <button class="start">start</button>
+        <button class="pause">pause</button>
+        <button class="stop">stop</button>
+        <button class="new">new</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
